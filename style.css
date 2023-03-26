@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  /* font-family: HankenGrotesk; */
+  box-sizing: border-box;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  /* text-decoration: none; */
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  color: rgb(137, 11, 32);
+}
+
+/*colors*/
+/*background-color: blanchedalmond; background/med pic color*/
+/* background-color: lightblue; */
+/* background-color: rgb(137, 11, 32); */
+/* grey background: #c8c8c8f0; */
+/*
+separator #989c8d
+*/
+
+/*fonts*/
+/* Rajdhani for navbar*/
+/* font-family: HankenGrotesk; */
+/* font-family: Oswald, sans-serif; */
+
+.hamburger * {
+  font-family: "Rajdhani", sans-serif;
+  /* font-size: 1.5rem; */
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+}
+
+.red-twist {
+  color: rgba(234, 65, 144, 0.4);
+  font-weight: bold;
+  /* margin-left: 0.5em; */
+}
+
+.three-line-menu,
+.close-menu {
+  width: 30px;
+  /* filter: invert(99%) sepia(92%) saturate(0%) hue-rotate(323deg) brightness(114%) contrast(100%); */
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  padding: 0 1.5em;
+  background: white;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.close-menu {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #c8c8c8f0;
+  color: rgb(174, 16, 16);
+  list-style: none;
+  padding: 4em 4em 0;
+  margin: 0 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1em;
+}
+.show-menu {
+  transform: translateY(0);
+  margin: 2em 0.5em;
+}
+
+.test {
+  position: fixed;
+  height: 100vh;
+  background-color: brown;
+  font-family: "Oswald", sans-serif;
+}
+
+/*home section */
+
+.home {
+  height: 100vh;
+  background-color: lightblue;
+  background-image: url("/assets/images/lotusBG.png");
+  background-repeat: no-repeat;
+  background-position: bottom right -50px;
+  background-size: cover;
+  /* filter: hue-rotate(60deg); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-quote {
+  /* flex-grow: 1; */
+  margin-top: 10em;
+}
+
+.container-quote p {
+  color: rgb(137, 11, 32);
+  color: white;
+  /* font-family: "Indie Flower", cursive; */
+  font-size: 1.25rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.home a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /* margin-top: auto; */
+}
+
+.arrow-down {
+  width: 10%;
+  filter: invert(100%) sepia(7%) saturate(1%) hue-rotate(152deg)
+    brightness(106%) contrast(101%);
+}
+
+/*class section */
+
+.classi,
+.articoli {
+  /* height: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.classe,
+.articolo {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  padding: 0 2.5em 1em;
+}
+
+.classe-img,
+.articolo-img {
+  /* display: block; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 80%;
+  align-self: center;
+}
+
+.classi-separator {
+  width: 50%;
+  color: rgb(6, 165, 218);
+  filter: invert(69%) sepia(1%) saturate(3151%) hue-rotate(33deg)
+    brightness(94%) contrast(69%);
+  /* filter: invert(50%) sepia(88%) saturate(1389%) hue-rotate(157deg)
+    brightness(90%) contrast(96%); */
+  margin: -2em 0 -1.5em;
+}
+
+.lotus-separator {
+  width: 10%;
+  filter: invert(69%) sepia(1%) saturate(3151%) hue-rotate(33deg)
+    brightness(94%) contrast(69%);
+  padding-bottom: 1em;
+}
+
+.classi h2 {
+  padding-top: 1em;
+  color: rgb(39, 17, 17);
+  /* font-size: 1.5rem; */
+}
+
+.classi h3 {
+  padding-top: 1em;
+}
+
+.classi h4,
+.classi p {
+  font-family: lora;
+  margin-top: 0.5em;
+}
+
+.yoga-nrg-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 10%;
+  align-self: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: #989c8d;
+  color: white;
+}
+
+footer * {
+  text-align: center;
+}
+
+.contatti {
+  padding-bottom: 1em;
+}
+.outro {
+  border-top: 1px solid rgb(205, 211, 190);
+  padding-top: 0.5em;
+}
+
+.footer-separator {
+  width: 50%;
+  filter: invert(98%) sepia(46%) saturate(0%) hue-rotate(180deg)
+    brightness(108%) contrast(100%);
+  margin: -2em 0 -1.5em;
+}
+
+.container-quote2 p {
+  margin-bottom: 1em;
+}
+
+.year h6 {
+  padding-bottom: 1em;
+}
+
+/*other pages */
+
+.full-article-container {
+  padding: 0 2.5em 1em;
+}
+
+.full-article-container h3 {
+  margin-top: 1em;
+}
+
+.full-article-container p,
+.full-article-container h4 {
+  font-weight: lighter;
+}
+
+.full-article-container p {
+  margin: 1em 0;
+  letter-spacing: 1px;
+  text-align: justify;
+}
