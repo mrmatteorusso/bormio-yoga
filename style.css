@@ -206,7 +206,9 @@ ul li a {
 }
 
 .classi h4,
-.classi p {
+.classi p,
+.articoli h4,
+.articoli p {
   font-family: lora;
   margin-top: 0.5em;
 }
@@ -269,12 +271,19 @@ footer * {
 }
 
 .full-article-container p,
-.full-article-container h4 {
+.full-article-container h4,
+.full-article-container ul li {
   font-weight: lighter;
+  list-style-type: "- ";
 }
 
-.full-article-container p {
+.full-article-container p,
+.full-article-container ul li {
   margin: 1em 0;
   letter-spacing: 1px;
   text-align: justify;
+}
+
+.full-article-container ul {
+  padding-left: 1em;
 }
