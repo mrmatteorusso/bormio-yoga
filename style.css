@@ -250,7 +250,7 @@ footer * {
   width: 50%;
   filter: invert(98%) sepia(46%) saturate(0%) hue-rotate(180deg)
     brightness(108%) contrast(100%);
-  margin: -2em 0 -1.5em;
+  /* margin: -2em 0 -1.5em; */
 }
 
 .container-quote2 p {
@@ -297,4 +297,7 @@ footer * {
   object-fit: cover;
   object-position: 50% 40%;
   align-self: center;
+}
+
+.certificates-logo {
 }
