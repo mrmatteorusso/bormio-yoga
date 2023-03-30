@@ -169,7 +169,8 @@ ul li a {
 }
 
 .classe-img,
-.articolo-img {
+.articolo-img,
+.full-articolo-img {
   /* display: block; */
   width: 300px;
   height: 300px;
@@ -286,4 +287,14 @@ footer * {
 
 .full-article-container ul {
   padding-left: 1em;
+}
+
+.full-articolo-img {
+  margin-top: 80px;
+}
+
+.skier {
+  object-fit: cover;
+  object-position: 50% 40%;
+  align-self: center;
 }
