@@ -302,6 +302,8 @@ footer * {
 }
 
 .skier {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: 50% 40%;
   align-self: center;
