@@ -172,8 +172,8 @@ ul li a {
 .articolo-img,
 .full-articolo-img {
   /* display: block; */
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
   object-fit: cover;
   object-position: 50% 80%;
   align-self: center;
@@ -219,6 +219,14 @@ ul li a {
   height: 300px;
   object-fit: cover;
   object-position: 50% 10%;
+  align-self: center;
+}
+
+.yoga-med-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 80%;
   align-self: center;
 }
 
@@ -298,6 +306,31 @@ footer * {
   object-position: 50% 40%;
   align-self: center;
 }
+.full-article-paragraph-container {
+  display: flex;
+  flex-direction: column;
+}
 
-.certificates-logo {
+.full-article-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+  .classe,
+  .articolo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 1em;
+  }
+
+  .yoga-med-img {
+    width: 300px;
+    height: 300px;
+    /* object-fit: cover;
+    object-position: 50% 80%;
+    align-self: center; */
+  }
 }
