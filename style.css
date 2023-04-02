@@ -176,7 +176,7 @@ ul li a {
   max-height: 300px;
   object-fit: cover;
   object-position: 50% 80%;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .classi-separator {
@@ -297,10 +297,6 @@ footer * {
   padding-left: 1em;
 }
 
-.full-articolo-img {
-  margin-top: 80px;
-}
-
 .skier {
   width: 300px;
   height: 300px;
@@ -308,15 +304,25 @@ footer * {
   object-position: 50% 40%;
   align-self: center;
 }
+
 .full-article-paragraph-container {
   display: flex;
   flex-direction: column;
 }
 
 .full-article-img {
+  margin-top: 80px;
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
+}
+
+.med-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 40%;
+  align-self: center;
 }
 
 @media (min-width: 800px) {
