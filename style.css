@@ -56,16 +56,15 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 0;
-  right: 10px;
-  left: 0;
+  /* top: 0;
+   right: 10px;
+  left: 0; */
   height: 50px;
-  padding-left: 1em;
+  padding: 0 2em;
+  width: 100%;
 }
 
 .hamburger {
-  /* padding: 0 1.5em; */
-  background: white;
   cursor: pointer;
 }
 
