@@ -162,6 +162,10 @@ ul li a {
   /* height: 100vh; */
   padding: 0 2.5em 1em;
 }
+.classe-info,
+.articolo-info {
+  padding: 0 1em;
+}
 
 .classe-img,
 .articolo-img,
@@ -171,7 +175,7 @@ ul li a {
   max-height: 300px;
   object-fit: cover;
   object-position: 50% 80%;
-  /* align-self: center; */
+  align-self: center;
 }
 
 .classi-separator {
@@ -214,7 +218,6 @@ ul li a {
   height: 300px;
   object-fit: cover;
   object-position: 50% 10%;
-  align-self: center;
 }
 
 .yoga-med-img {
@@ -222,7 +225,6 @@ ul li a {
   height: 300px;
   object-fit: cover;
   object-position: 50% 80%;
-  align-self: center;
 }
 
 /*footer*/
@@ -297,7 +299,6 @@ footer * {
   height: 300px;
   object-fit: cover;
   object-position: 50% 40%;
-  align-self: center;
 }
 
 .full-article-paragraph-container {
