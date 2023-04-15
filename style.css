@@ -65,6 +65,10 @@ header {
   width: 100%;
 }
 
+.nav-title {
+  font-size: 1.5rem;
+}
+
 .hamburger {
   cursor: pointer;
 }
@@ -163,8 +167,7 @@ ul li a {
   /* height: 100vh; */
   padding: 0 2.5em 1em;
 }
-.classe-info,
-.articolo-info,
+
 .contatti {
   padding: 0 1em;
 }
@@ -181,8 +184,7 @@ ul li a {
 }
 
 .classi-separator {
-  width: 50%;
-  color: rgb(6, 165, 218);
+  max-width: 200px;
   filter: invert(69%) sepia(1%) saturate(3151%) hue-rotate(33deg)
     brightness(94%) contrast(69%);
   /* filter: invert(50%) sepia(88%) saturate(1389%) hue-rotate(157deg)
@@ -191,7 +193,7 @@ ul li a {
 }
 
 .lotus-separator {
-  width: 10%;
+  width: 40px;
   filter: invert(69%) sepia(1%) saturate(3151%) hue-rotate(33deg)
     brightness(94%) contrast(69%);
   padding-bottom: 1em;
@@ -203,8 +205,16 @@ ul li a {
   /* font-size: 1.5rem; */
 }
 
-.classi h3 {
+.classi h3,
+.articoli h3 {
   padding-top: 1em;
+}
+
+/*articles and classes */
+.articolo-info a,
+.classe-info a {
+  display: block;
+  margin-top: 0.5em;
 }
 
 .classi h4,
@@ -323,20 +333,48 @@ footer * {
   align-self: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
+  .container-quote {
+    /* flex-grow: 1; */
+    margin-top: 30%;
+  }
+
   .classe,
   .articolo {
     display: flex;
     flex-direction: row;
-    align-self: center;
     gap: 1em;
+    max-width: 850px;
   }
 
-  .yoga-med-img {
-    width: 300px;
-    height: 300px;
-    /* object-fit: cover;
-    object-position: 50% 80%;
-    align-self: center; */
+  .classi h3,
+  .articoli h3 {
+    padding-top: 0;
+  }
+
+  .classi-separator {
+    max-width: 400px;
+  }
+
+  .lotus-separator {
+    width: 80px;
+    margin: 1.5em;
+  }
+  /* .classe-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }*/
+
+  .classi h2,
+  .articoli h2 {
+    font-size: 2rem;
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .home {
+    background-position: bottom right;
   }
 }
