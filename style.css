@@ -93,7 +93,7 @@ header {
   flex-direction: column;
 }
 
-ul li a {
+.menu-item {
   display: block;
   text-decoration: none;
   color: white;
