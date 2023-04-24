@@ -110,7 +110,7 @@ header {
 
 .home {
   height: 100vh;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   background-image: url("/assets/images/lotusBG.webp");
   background-repeat: no-repeat;
   background-position: bottom right -50px;
