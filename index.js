@@ -32,10 +32,8 @@ toggle.addEventListener("click", toggleMenu);
 menuItems.forEach((menuItem) => menuItem.addEventListener("click", toggleMenu));
 
 const navTitle = document.querySelector(".nav-title");
-console.log(navTitle);
 
 function goHome() {
-  console.log("clicked");
   //window.open("https://matteorusso.yoga/index.html#home", "_self");
   // window.location.replace("https://matteorusso.yoga/index.html#home");
   location.href = "https://matteorusso.yoga/index.html#home";
