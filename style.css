@@ -106,6 +106,22 @@ header {
   margin: 2em 0.5em;
 }
 
+.primo-piano-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.primo-piano h2 {
+  text-align: center;
+}
+
+.primo-piano-event {
+  background-color: beige;
+  padding: 0.5em;
+  width: 17%;
+}
+
 /*home section */
 
 .home {
