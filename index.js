@@ -1,3 +1,12 @@
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+
+try {
+  const result = await fetch("info.txt");
+  const text = await result.text();
+} catch (err) {
+  console.log(err);
+}
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menu-item");
 const hamburger = document.querySelector(".hamburger");
